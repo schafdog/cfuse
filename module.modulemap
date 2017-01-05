@@ -1,0 +1,17 @@
+module CFuseLinux [system] {
+    header "/usr/include/fuse.h"
+    link "fuse"
+    export *
+}
+
+module COSXFuse [system] {
+    header "/usr/local/include/fuse.h"
+    link "libfuse"
+    export *
+}
+
+module CFuseBrew [system] {
+    header "/usr/local/include/fuse.h"
+    link "libfuse"
+    export *
+}
