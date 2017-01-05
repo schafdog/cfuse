@@ -1,7 +1,4 @@
-Wrapper library for FUSE
-
+# Wrapper library for FUSE
 Depending on OS and package tool the required header and is in different places.
-
-Usage:
-
+# Usage:
 import CMacFuse
